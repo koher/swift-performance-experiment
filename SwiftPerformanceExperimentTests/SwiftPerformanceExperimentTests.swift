@@ -23,6 +23,13 @@ class SwiftPerformanceExperimentTests: XCTestCase {
         }
     }
     
+    func testQuxPerformance() {
+        let qux = Qux<Int>(values: (1...1000000).map { $0 })
+        measureBlock {
+            _ = qux.map { $0 << 1 }
+        }
+    }
+    
     func testArrayPerformance() {
         let array: [Int] = (1...1000000).map { $0 }
         measureBlock {

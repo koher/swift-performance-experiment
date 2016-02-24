@@ -12,6 +12,7 @@
 		D63B8BB11C7DB7B500E09688 /* SwiftPerformanceExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63B8BB01C7DB7B500E09688 /* SwiftPerformanceExperimentTests.swift */; };
 		D63B8BBC1C7DB7F700E09688 /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63B8BBB1C7DB7F700E09688 /* Foo.swift */; };
 		D63B8BBE1C7DB88D00E09688 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63B8BBD1C7DB88D00E09688 /* Bar.swift */; };
+		D63B8BC01C7DBEEE00E09688 /* Qux.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63B8BBF1C7DBEEE00E09688 /* Qux.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		D63B8BB21C7DB7B500E09688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D63B8BBB1C7DB7F700E09688 /* Foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
 		D63B8BBD1C7DB88D00E09688 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		D63B8BBF1C7DBEEE00E09688 /* Qux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Qux.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				D63B8BA61C7DB7B500E09688 /* Info.plist */,
 				D63B8BBB1C7DB7F700E09688 /* Foo.swift */,
 				D63B8BBD1C7DB88D00E09688 /* Bar.swift */,
+				D63B8BBF1C7DBEEE00E09688 /* Qux.swift */,
 			);
 			path = SwiftPerformanceExperiment;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D63B8BC01C7DBEEE00E09688 /* Qux.swift in Sources */,
 				D63B8BBC1C7DB7F700E09688 /* Foo.swift in Sources */,
 				D63B8BBE1C7DB88D00E09688 /* Bar.swift in Sources */,
 			);
