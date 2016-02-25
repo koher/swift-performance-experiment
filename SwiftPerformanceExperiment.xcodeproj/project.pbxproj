@@ -13,6 +13,8 @@
 		D63B8BBC1C7DB7F700E09688 /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63B8BBB1C7DB7F700E09688 /* Foo.swift */; };
 		D63B8BBE1C7DB88D00E09688 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63B8BBD1C7DB88D00E09688 /* Bar.swift */; };
 		D63B8BC01C7DBEEE00E09688 /* Qux.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63B8BBF1C7DBEEE00E09688 /* Qux.swift */; };
+		D63B8BC21C7EAEDA00E09688 /* Foobar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63B8BC11C7EAEDA00E09688 /* Foobar.swift */; };
+		D63B8BC41C7EB0AD00E09688 /* Fubar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63B8BC31C7EB0AD00E09688 /* Fubar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		D63B8BBB1C7DB7F700E09688 /* Foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
 		D63B8BBD1C7DB88D00E09688 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
 		D63B8BBF1C7DBEEE00E09688 /* Qux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Qux.swift; sourceTree = "<group>"; };
+		D63B8BC11C7EAEDA00E09688 /* Foobar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foobar.swift; sourceTree = "<group>"; };
+		D63B8BC31C7EB0AD00E09688 /* Fubar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fubar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				D63B8BBB1C7DB7F700E09688 /* Foo.swift */,
 				D63B8BBD1C7DB88D00E09688 /* Bar.swift */,
 				D63B8BBF1C7DBEEE00E09688 /* Qux.swift */,
+				D63B8BC11C7EAEDA00E09688 /* Foobar.swift */,
+				D63B8BC31C7EB0AD00E09688 /* Fubar.swift */,
 			);
 			path = SwiftPerformanceExperiment;
 			sourceTree = "<group>";
@@ -203,6 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D63B8BC21C7EAEDA00E09688 /* Foobar.swift in Sources */,
+				D63B8BC41C7EB0AD00E09688 /* Fubar.swift in Sources */,
 				D63B8BC01C7DBEEE00E09688 /* Qux.swift in Sources */,
 				D63B8BBC1C7DB7F700E09688 /* Foo.swift in Sources */,
 				D63B8BBE1C7DB88D00E09688 /* Bar.swift in Sources */,

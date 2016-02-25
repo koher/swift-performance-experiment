@@ -30,6 +30,20 @@ class SwiftPerformanceExperimentTests: XCTestCase {
         }
     }
     
+    func testFoobarPerformance() {
+        let foobar = Foobar<Int>(values: (1...1000000).map { $0 })
+        measureBlock {
+            _ = foobar.map { $0 << 1 }
+        }
+    }
+    
+    func testFubarPerformance() {
+        let fubar = Fubar<Int>(values: (1...1000000).map { $0 })
+        measureBlock {
+            _ = fubar.map { $0 << 1 }
+        }
+    }
+    
     func testArrayPerformance() {
         let array: [Int] = (1...1000000).map { $0 }
         measureBlock {
